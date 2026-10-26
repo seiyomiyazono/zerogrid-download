@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zero Grid をダウンロード</title>
+<meta name="description" content="EC の運営をダルマたちが進める Mac アプリ、Zero Grid のダウンロード">
+<link rel="icon" href="icon.svg">
+<style>
+  :root { --bg: #f6f5f2; --panel: #ffffff; --ink: #111111; --sub: #5f5f5f; --line: #e6e3dc; --btn: #111111; --btn-ink: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e0e0e; --panel: #181818; --ink: #f2f2f2; --sub: #a3a3a3; --line: #2a2a2a; --btn: #f2f2f2; --btn-ink: #111111; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif; line-height: 1.7; }
+  main { max-width: 640px; margin: 0 auto; padding: 72px 16px 56px; }
+  .logo { width: 88px; height: 88px; display: block; margin: 0 auto 20px; }
+  h1 { font-size: 30px; text-align: center; margin: 0 0 8px; letter-spacing: .02em; }
+  .lead { text-align: center; color: var(--sub); margin: 0 0 32px; }
+  .dl { display: block; width: 100%; max-width: 360px; margin: 0 auto; padding: 16px 20px; border-radius: 14px; background: var(--btn); color: var(--btn-ink); text-align: center; text-decoration: none; font-size: 17px; font-weight: 600; }
+  .meta { text-align: center; color: var(--sub); font-size: 13px; margin: 10px 0 44px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 24px 22px; }
+  h2 { font-size: 17px; margin: 0 0 12px; }
+  ol { margin: 0; padding-left: 1.3em; }
+  li { margin: 6px 0; }
+  .note { color: var(--sub); font-size: 13px; margin-top: 16px; }
+  footer { text-align: center; color: var(--sub); font-size: 12px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="icon.svg" alt="">
+  <h1>Zero Grid</h1>
+  <p class="lead">EC の運営を、ダルマたちが進める Mac アプリ</p>
+  <a class="dl" id="dl" href="https://github.com/seiyomiyazono/zerogrid-download/releases/latest/download/Zero-Grid-mac-arm64.dmg">Mac 版をダウンロード</a>
+  <p class="meta" id="meta">Apple シリコン（M1 以降）の Mac ・ macOS 11 以降 ・ 約 300MB</p>
+
+  <div class="card">
+    <h2>はじめかた</h2>
+    <ol>
+      <li>上のボタンで <b>Zero-Grid-mac-arm64.dmg</b> をダウンロードします。</li>
+      <li>ダウンロードした dmg を開き、<b>Zero Grid</b> を「アプリケーション」フォルダへドラッグします。</li>
+      <li>アプリケーションから Zero Grid を開きます（Apple の公証済みなので、そのまま開けます）。</li>
+      <li>「Google でログイン」から、Google のアカウントでログインします。</li>
+      <li>画面の案内に沿って、AI（Claude）・Shopify・Meta などをつなぎます。</li>
+    </ol>
+    <p class="note">チャットや画像づくりには、この Mac に Claude Code（または Codex）のログインが要ります。アプリの「プラグイン」の画面から入れられます。</p>
+  </div>
+  <footer>© Zero Grid</footer>
+</main>
+</body>
+</html>
